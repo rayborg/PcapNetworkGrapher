@@ -1,5 +1,4 @@
 Install all required libraries:
-Requirements:
 wireshark
 tshark
 sudo apt-get install python-pip
@@ -10,7 +9,7 @@ sudo apt-get install python-matplotlib
 sudo apt-get install graphviz
 
 then run
-./MainPcapGrapher.sh validpcapfile.pcap
+./genCapGraph.sh validpcapfile.pcap
 
 This should generate a graph of the communication from the pcap and then you can save the output.
 
