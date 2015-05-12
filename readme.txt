@@ -16,3 +16,5 @@ This should generate a graph of the communication from the pcap and then you can
 Note: You may want to clean the capture to not display broadcast junk:
 !(eth.dst==ff:ff:ff:ff:ff:ff || eth.dst == 00:00:00:00:00:00 || ip.addr==255.255.255.255||ip.addr==0.0.0.0 || ipv6.dst==ff02::1:2 || eth.dst==01:80:c2:00:00:0e)
 That's it.
+
+Example graph is from this CTF: https://github.com/markofu/hackeire/blob/master/2011/pcap/c1.pcap
